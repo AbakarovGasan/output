@@ -1,0 +1,11 @@
+var
+ a1,d,n:real;
+begin
+ write('a1=');
+ read(a1);
+ write('d=');
+ read(d);
+ write('n=');
+ read(n);
+ write(a1+(n-1)*d)
+end. 

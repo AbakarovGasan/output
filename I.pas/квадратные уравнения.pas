@@ -1,0 +1,37 @@
+var
+  b,a,c,d,x1,x2:real;
+  u,q,w:integer;
+begin
+  writeln('a*(x^2)+b*x+c=0');
+  write('a=');
+  read(a);
+  write('b=');
+  read(b);
+  write('c=');
+  read(c);
+  d:=(b*b-4*a*c);
+  if(d<0)then
+    write('нет корней')
+  else 
+    if(d=0)then
+      begin 
+        a:=2*a;
+        b:=-b;
+        write('X=');
+        write(b/a);
+      end
+    else
+      begin
+        a:=2*a;
+        b:=-b;
+        d:=sqrt(d);
+        x1:=(b+d)/a;
+        x2:=(b-d)/a;
+        write('X1=');
+        write(x1);
+        write(';');
+        write('X2=');
+        write(x2);
+      end
+end.
+  
