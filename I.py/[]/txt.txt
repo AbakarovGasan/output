@@ -1,0 +1,13 @@
+#gasan()
+print 'fsad'
+print '''gasan'''
+
+macro something_about_me{
+print 'sadf'
+}
+print 'fsd'
+print 'qw[]rwqr[]'
+
+something_about_me
+
+
